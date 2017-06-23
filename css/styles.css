@@ -241,7 +241,7 @@ figure {
 @media (min-width: 992px) {
 
   article.movie {
-    width: 33%;
+    width: 33.33%;
     float: left;
   }
   .movie-overview {
