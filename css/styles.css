@@ -197,6 +197,9 @@ figure {
 }
 
 @media (min-width: 768px) {
+  main {
+    margin-left: 8%;
+  }
   .site-nav-item {
     float: none;
     width: 10%;
@@ -209,9 +212,7 @@ figure {
   .site-nav-list {
     margin-top: 100%;
   }
-  article.movie {
-    margin-left: 8%;
-  }
+
   .site-logo {
     position: fixed;
     top: 1rem;
@@ -235,4 +236,24 @@ figure {
     float: right;
     width: 41%;
   }
+}
+
+@media (min-width: 992px) {
+
+  article.movie {
+    width: 33%;
+    float: left;
+  }
+  .movie-overview {
+    display: none;
+  }
+  body > main > article:nth-child(1) > div p {
+    display: block;
+  }
+  article.movie:nth-child(1) {
+    width: 100%;
+  }
+ footer {
+   clear: left;
+ }
 }
